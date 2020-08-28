@@ -1,0 +1,43 @@
+.accordion {
+  background: #8e44ad;
+  color: white;
+  padding: 2rem;
+  border-radius: 3px;
+  width: 70%;
+}
+
+.accordion-item {
+  background: #b360d6;
+  margin-bottom: 0.3rem;
+}
+
+.accordion-head {
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.hidden {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.open {
+  height: 80px;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 2rem;
+  opacity: 1;
+}
+
+
+.accordion-center{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mt-5{
+  margin-top:3rem !important;
+}
